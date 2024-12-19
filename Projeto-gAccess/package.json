@@ -1,0 +1,37 @@
+{
+  "name": "projeto-gpatri",
+  "version": "1.0.1",
+  "description": "Projeto de estágio obrigatório do 3º Técnico em Informática no Laboratório NumbERS. Consiste em construir um software para gerenciamento de acesso e restrições deste núcleo.",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js",
+    "nodemon": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NumbERS-IFG/Projeto-de-acesso-e-restricoes-do-NumbERS.git"
+  },
+  "keywords": [
+    "patrimonio",
+    "nodejs",
+    "postgresql"
+  ],
+  "author": "Maria Eduarda Mendonça Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NumbERS-IFG/Projeto-de-acesso-e-restricoes-do-NumbERS/issues"
+  },
+  "homepage": "https://github.com/NumbERS-IFG/Projeto-de-acesso-e-restricoes-do-NumbERS#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg-promise": "^11.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
